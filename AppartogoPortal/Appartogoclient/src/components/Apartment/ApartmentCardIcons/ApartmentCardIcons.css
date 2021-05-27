@@ -1,0 +1,16 @@
+.cardIcons-appart {
+  display: flex;
+  margin-bottom: .75rem;
+}
+
+.cardIcons-true {
+  color: #044b7f;
+}
+
+.cardIcons-false {
+  color: #868e96;
+}
+
+.cardIcons-appart-right {
+  padding-left: 25px;
+}

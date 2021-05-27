@@ -1,0 +1,33 @@
+.alt-list-icons-container {
+    display: flex;
+    justify-content: space-between;
+    width: 4rem;
+    align-items: center;
+    margin-right: 1em;
+}
+
+.alt-activated {
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    color: red;
+}
+
+.alt-desactivated {
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    color: black;
+}
+
+button.alt-list, button.alt-grid {
+    background-color: transparent;
+    border: none;
+}
+
+button.alt-list:hover, button.alt-grid:hover,
+button.alt-list:focus, button.alt-grid:focus,
+button.alt-list:active, button.alt-grid:active {
+    background-color: #dee9f1;
+    border: none;
+}

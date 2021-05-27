@@ -1,0 +1,10 @@
+﻿.btn-primary {
+    background: darkred;
+    outline: none;
+    border: none;
+}
+
+.spinner-border-sm.submit-spinner {
+  margin-bottom: 1.5px;
+  margin-left: 7px;
+}

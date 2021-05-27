@@ -1,0 +1,103 @@
+.apartmentListItem-img {
+    width:12rem;
+}
+
+ tr.apartmentListItem-tr td:not(:first-child) {
+    padding: 0 1rem 0 1rem;
+    vertical-align:middle;
+} 
+
+
+tr.apartmentListItem-tr td {
+    padding: 0;
+}
+
+.apartmentListItem-address {
+    width:100%;
+}
+
+.apartmentListItem-icons {
+    width:100%;
+}
+
+.apartmentListItem-size{
+    width:100%;
+}
+
+.apartmentListItem-pricing {
+    width:100%;
+}
+
+.apartmentListItem-lastUpdate {
+    width:100%;
+} 
+
+.apartmentListItem-container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin-bottom: 1rem;
+    opacity: 0.8;
+    background-color: white;
+    box-shadow: 0.25rem 0.25rem 0.6rem rgba(0,0,0,0.05), 0 0.5rem 1.125rem rgba(75,0,0,0.05)
+}
+
+.apartmentListItem-address-td {
+    width:40%;
+}
+
+.apartmentListItem-icons-td {
+    width:10%;
+}
+
+.apartmentListItem-size-td{
+    width:10%;
+}
+
+.apartmentListItem-pricing-td {
+    width:10%;
+}
+
+.apartmentListItem-lastUpdate-td {
+    width:10%;
+} 
+
+.apartmentListItem-actions-td {
+    width:10%;
+}
+
+td.apartmentListItem-img-td {
+    width:12%;
+    vertical-align:middle;
+}
+
+.table.apartmentListItem-table {
+    padding: 0;
+    margin: 0;
+}
+
+.listActions-actions{
+    display:block;
+    cursor: pointer;
+}
+
+.listActions-edit:hover{
+    display:block;
+    cursor: pointer;
+    background-color: silver;
+}
+
+.listActions-actions:hover{
+    display:block;
+    cursor: pointer;
+    background-color: silver;
+}
+
+.threeDots {
+    cursor: pointer;
+}
+
+.listActions-edit{
+    display:block;
+    cursor: pointer;
+}

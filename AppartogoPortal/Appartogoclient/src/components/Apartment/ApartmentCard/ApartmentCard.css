@@ -1,0 +1,91 @@
+.card-header.apart-card-header-style {
+  background-color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem;
+}
+
+.apart-card-image-overlay {
+  display: flex;
+  justify-content: space-between;
+}
+
+.apart-card-image-overlay-updated-time,
+.apart-card-image-overlay-availability {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  background-color: gainsboro;
+  padding: 2px;
+  border-radius: 7.5px;
+  opacity: 0.75;
+}
+
+.apart-card-image-overlay-updated-time > span,
+.apart-card-image-overlay-availability > span {
+  font-size: 0.7rem;
+  font-weight: bold;
+  margin-left: 3px;
+  padding-left: 3px;
+}
+
+.apart-card-button {
+  margin: 0 0.2rem 0 0.2rem;
+}
+
+.apart-card-button-container {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.card.apart-card-item-active {
+  width: 18rem;
+  margin: 0 1rem 1rem 0;
+  padding: 0rem;
+  opacity: 1;
+}
+
+.card.apart-card-item-archived {
+  width: 18rem;
+  margin: 0 1rem 1rem 0;
+  padding: 0rem;
+  opacity: 0.5;
+}
+
+.card-img-top.apart-card-img {
+  width: 100%;
+  height: 13rem;
+}
+
+.card-title.apart-card-title-style {
+  color: #c61717;
+  font-size: 1rem;
+}
+
+.card-overlay.apart-card-overlay-styl {
+  height: fit-content;
+}
+
+.card-text.apart-card-text {
+  font-weight: bold;
+}
+
+.apart-card-header-right-size {
+  margin-right: 5px;
+  margin-left: 10px;
+  font-size: 1rem;
+}
+
+.apart-card-header-right {
+  display: flex;
+  margin-bottom: 0.75rem;
+  align-items: center;
+}
+
+.FaRulerCombined {
+  height: 1rem;
+}

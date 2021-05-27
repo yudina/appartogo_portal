@@ -1,0 +1,11 @@
+﻿input[type="checkbox"].form-control {
+    width: auto;
+}
+
+.modal-header {
+    border: none;
+}
+
+.modal-content {
+    background-image: url("./technology.jpg");
+}

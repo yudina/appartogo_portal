@@ -1,0 +1,25 @@
+{
+  "common.pages": {
+    "fr": "Pages",
+    "en": "Pages"
+  },
+
+  "menu.home": {
+    "fr": "Accueil",
+    "en": "Home"
+  },
+
+  "footer.all-rights-reserved": {
+    "fr": "Tous droits réservés.",
+    "en": "All rights reserved."
+  },
+
+  "home.title": {
+    "fr": "Accueil",
+    "en": "Home"
+  },
+  "home.fake-test-to-delete": {
+    "fr": "Voici un texte pour montrer le bon fonctionnement de la localisation",
+    "en": "Here's a text to show that localization is working"
+  }
+}

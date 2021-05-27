@@ -1,0 +1,19 @@
+﻿.form-check {
+  padding-top: 1em;
+}
+
+.fields {
+  padding-top: 2em;
+}
+
+.boxes {
+  padding-bottom: 2em;
+}
+
+.pull-right {
+  float: right;
+}
+
+.cursor {
+  cursor: pointer;
+}

@@ -1,0 +1,58 @@
+.listings-active {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.listings-archived {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.listings-title,
+h3 {
+  margin: 0rem 0 1rem 0;
+  color: #c61717;
+}
+
+.listings-title-active-container,
+.listings-title-archived-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.listings-title-active {
+  display: flex;
+  align-items: center;
+}
+
+.listings-container {
+  width: 100%;
+}
+
+.listings-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listings-title-search {
+  height: 38px;
+  border-radius: 15px;
+  padding: 1rem;
+  border: 2px solid grey;
+}
+
+.btn.listing-add-button {
+  background-color: #c61717;
+  width: 10rem;
+  max-width: 10rem;
+  height: 3rem;
+  box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.05), 0 0.5rem 1.125rem red;
+  border: none;
+  opacity: 0.8;
+  border-radius: 15px;
+  margin: 2rem 0 2rem 0;
+  float: right;
+}

@@ -1,0 +1,114 @@
+.table-image td th {
+  vertical-align: middle;
+}
+
+.table > tbody > tr > td,
+.table > tbody > tr > th {
+  border-top: none;
+  vertical-align: middle;
+}
+
+.table {
+  border-collapse: separate;
+  border-spacing: 0 20px;
+}
+
+.rowBody {
+  border-radius: 25px;
+  margin-top: 100em;
+  box-shadow: 0 4px 8px 0#bababa, 0 6px 20px 0 #bababa;
+}
+
+.imageContainer {
+  width: 50px;
+  margin-right: 5px;
+}
+
+.applicantContainer {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+.dropdownButton {
+  background-color: white;
+  border: white;
+}
+
+.buttonStatus:hover {
+  color: #fff !important;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+.activeTab {
+  background-color: red;
+}
+
+.noContent {
+  height: 100px;
+  text-align: center;
+}
+.noData {
+  height: 100px;
+  text-align: center;
+}
+
+.actionButtons {
+  display: flex;
+}
+
+.applicantConstent {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.icons-app {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.applicationModalTitle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.applicationStatus {
+  padding-left: 10px;
+  height: 25px;
+  width: 25px;
+  background-color: rgb(156, 18, 18);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.listItemsnav .nav-item {
+  border-style: hidden;
+}
+
+.listItemsnav .nav-item.open {
+  border-style: hidden;
+}
+
+.listItemsnav .nav-item.active {
+  color: #c61717;
+  background-color: #bababa;
+  border-bottom: 5px solid #c61717;
+}
+
+.listItemsnav .nav-item:hover {
+  color: #c61717;
+  transition: 0.2s;
+}

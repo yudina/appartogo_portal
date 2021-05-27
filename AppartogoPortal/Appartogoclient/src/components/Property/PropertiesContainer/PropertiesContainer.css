@@ -1,0 +1,31 @@
+.noProperties {
+  display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.properties-cards {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  text-align: center;
+  overflow: auto;
+}
+
+.np-text {
+  text-align: center;
+}
+
+.add {
+    display: block;
+    margin: 0 auto;
+    margin-top: 16em;
+}
+
+.link {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+}

@@ -1,0 +1,37 @@
+@media only screen and (max-width: 410px) {
+  .logobrand {
+    width: 135px;
+  }
+
+  .accountText {
+    display: none;
+  }
+
+}
+
+.custombtn {
+    background-color: transparent !important;
+    outline: none !important;
+    border: none !important;
+    transition: all .5s ease;
+    margin-right:1em;
+}
+
+.custombtn svg {
+    color: black !important;
+    transition: color .5s ease;
+}
+
+.custombtn:hover{
+    background-color:transparent !important;
+}
+
+.custombtn:focus{
+    outline:none !important;
+    box-shadow:none !important;
+}
+
+.custombtn:hover svg {
+    color: darkred !important;
+    transition: color .5s ease;
+}

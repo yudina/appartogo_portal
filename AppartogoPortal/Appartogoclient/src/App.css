@@ -1,0 +1,79 @@
+.App {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
+
+html {
+  font-size: 16px;
+}
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 0.9rem;
+  }
+}
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+@import "https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,500,600,700";
+
+body {
+  /*font-family: 'Poppins', sans-serif;*/
+  font-family: "Nunito Sans", sans-serif;
+  /*background: #fafafa;*/
+  background-color: #f5f9fc;
+}
+
+a,
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.2s;
+  outline: 0;
+}
+
+/* ***************
+    CONTENT STYLE 
+ ***************** */
+.content {
+  padding: 20px;
+  margin-left: 0;
+  height: 100vh;
+  overflow: auto;
+}
+
+.topbar {
+  margin: -20px;
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    overflow: hidden;
+  }
+
+  .content.is-open {
+    /*margin-left: 100%;*/
+    display: none;
+    transition: all 0.5s;
+  }
+
+  .sidebar.is-open {
+    min-width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    transition: all 0.5s, height 0s;
+    height: 100vh !important;
+  }
+
+  .sidebar.is-open > .sidebar-header button {
+    display: block;
+  }
+
+  li a.dropdown-toggle::after {
+    display: inline-block;
+    position: relative;
+    left: 68%;
+  }
+}
+
+/* */
